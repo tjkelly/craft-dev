@@ -8,40 +8,33 @@
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
-    
-    <section class="panel-1 panel-photo">
-	    <header class="header row">
-	    	<div class="large-3 medium-3 small-4 small-centered block-small-only columns">
-	      	<a href="index.html"><img src="img/logo-white-space.png" width="131" height="40" alt="Craft.Digital" class="site-logo"></a>
-	    	</div><!-- / columns -->
-      	<nav class="site-nav-wrap large-9 medium-9 small-12 columns">
-      		<ul class="site-nav inline-list-medium-up right-medium-up">
-	      		<li><a href="#company">Company</a></li>
-	      		<li><a href="#mission">Mission</a></li>
-	      		<li><a href="#contact">Contact</a></li>
-      		</ul>
-      	</nav><!-- / columns -->
+
+  	<div class="header-wrap sticky">
+	    <header class="header" data-topbar role="navigation" data-options="sticky_on: large">
+		    <div class="row">
+		    	<div class="large-3 medium-3 small-4 small-centered block-small-only columns">
+		      	<a href="index.html">
+		      		<img src="img/logo-white-lowres.png" width="119" height="67" alt="Craft Digital." class="site-logo site-logo-white">
+			      	<img src="img/logo-grey-lowres.png" width="119" height="67" alt="Craft Digital." class="site-logo site-logo-grey">
+		      	</a>
+		    	</div><!-- / columns -->
+	      	<nav class="site-nav-wrap large-9 medium-9 small-12 columns">
+	      		<ul class="site-nav inline-list-medium-up right-medium-up">
+		      		<li><a href="#company">Company</a></li>
+		      		<li><a href="#mission">Mission</a></li>
+		      		<li><a href="#contact">Contact</a></li>
+	      		</ul>
+	      	</nav><!-- / columns -->
+		    </div><!-- / row -->
 	    </header><!-- / header -->
+    </div><!-- / header-wrap --> 
+    
+    <section class="panel-1 panel-photo"> 
 	    <article class="panel-content text-center uppercase">
 	    	<h1>Craft Digital</h1>
 	    	<p class="subhead">The digital agency for the experience economy.</p>
 	    </article><!-- / panel-content -->
     </section><!-- / panel-1 -->
-    
-    <section class="panel-2 panel-light show-for-medium-up">
-    	<header class="header-2 row">
-	    	<div class="large-3 medium-3 small-4 small-centered block-small-only columns">
-	      	<a href="index.html"><img src="img/logo-grey-lowres.png" width="119" height="67" alt="Craft Digital."></a>
-	    	</div><!-- / columns -->
-      	<nav class="site-nav-wrap large-9 medium-9 small-12 columns">
-      		<ul class="site-nav inline-list-medium-up right-medium-up">
-	      		<li><a href="#company">Company</a></li>
-	      		<li><a href="#mission">Mission</a></li>
-	      		<li><a href="#contact">Contact</a></li>
-      		</ul>
-      	</nav><!-- / columns -->
-	    </header><!-- / header-2 -->
-    </section><!-- / panel-2 -->
     
     <section class="panel-3 panel-grey">
     	<div class="row">
@@ -108,6 +101,7 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="js/vendor/jquery.js"><\/script>')</script>
     <script src="js/foundation.min.js"></script>
+    <script src="js/foundation/foundation.topbar.js"></script>
     <script src="js/custom.js"></script>
   </body>
 </html>
